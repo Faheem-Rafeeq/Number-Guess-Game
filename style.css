@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Style for the input field */
+.styled-input {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #3498db; /* Blue border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Focused state for the input */
+.styled-input:focus {
+    outline: none;
+    border-color: #2ecc71; /* Green border when focused */
+    box-shadow: 0 0 5px rgba(46, 204, 113, 0.5); /* Green glow effect */
+}
+
+/* Style for placeholder text */
+.styled-input::placeholder {
+    color: #888; /* Light gray placeholder text */
+    font-style: italic;
+}
