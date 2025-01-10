@@ -24,7 +24,7 @@ score -= 1;
 if(chance == randomNumber){
     console.log("congratulation!")
     h2.textContent = `congratulation! Actual Number is ${randomNumber}.
-     You guess the actual in Number in ${8 - score} attempts`
+     You guess the actual in Number in ${input.value - score} attempts`
 }
 else if(score === 0  &&  chance != randomNumber){
 console.log(`you lose you cannnot guess the actual number in ${input.value}`)
